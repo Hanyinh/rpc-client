@@ -1,4 +1,4 @@
-package com.hanyinh.rpc.client;
+package com.hanyinh.rpc.client.socket;
 
 import com.hanyinh.rpc.common.RpcRequest;
 import lombok.extern.slf4j.Slf4j;
@@ -9,7 +9,7 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 
 /**
- * 客户端通信
+ * Socket方式客户端通信
  *
  * @author Hanyinh
  * @date 2020/9/20 11:40
